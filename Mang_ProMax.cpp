@@ -33,7 +33,7 @@ int themdau(int mang[],int &n, int m ){
 	mang[0]=m;
 	xuat(mang,n);
 }
-							// them so vao mot vi tri bat kÏ cua mang
+							// them so vao mot vi tri bat k√¨ cua mang
 	
 int themvitri(int mang[],int &n, int m, int k ){
 	n++;
@@ -81,7 +81,7 @@ int mangtang(int mang[],int n,int tang){
 	}
 	xuat(mang,n);
 }
-										// xoa 1 gia tri d‚u mang
+										// xoa 1 gia tri d√¢u mang
 
 int xoadaumang(int mang[],int &n){
 	for(int i=0;i<n-1;i++){
@@ -94,13 +94,13 @@ int xoadaumang(int mang[],int &n){
 										//xoa 1 gia tri cuoi mang
 
 int xoacuoimang(int mang[],int &n){
-	for(int i=0;i<n+1;i++){
+	for(int i=0;i>n-1;i--){
 		mang[i-1]=mang[i];
 	}
 	n--;
 	xuat(mang,n);
 }
-										// xoa 1 phan tu tai 1 vi tri ban muÙn
+										// xoa 1 phan tu tai 1 vi tri ban mu√¥n
 
 int xoavitri(int mang[],int &n,int l){
 	printf("nhap vi tri can xoa: ");scanf("%d",&l);
@@ -122,7 +122,7 @@ int tim(int mang[],int &n){
  }
 }
 
-										// –Ím sÙ l‚n xu‚t hiÍn cua 1 ph‚n tu co gia tri x trÚg mang
+										// √ê√™m s√¥ l√¢n xu√¢t hi√™n cua 1 ph√¢n tu co gia tri x tr√≤g mang
 int demsoluong(int mang[],int &n,int dem){
 	int so;
 	printf("nhap gia tri= ");scanf("%d",&so);
