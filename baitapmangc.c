@@ -59,8 +59,6 @@ int main(){
             }
         }
     }
-    
-    
     printf("\nMang da sap xep la: ");
     for(int i = 0; i < n; i++){
         printf("%5d", arr[i]);
